@@ -17,28 +17,27 @@ body {
 }
 /* Since positioning the image, we need to help out the caption */
 .carousel-caption {
-  bottom: 8rem;
-  z-index: 10;
-  right: 5%;
+  bottom: 150;
+  right: 0;
+  color: #696969;
+  font-size: 40rem;
   text-align: right;
-  color: #7f7f7f;
-  max-width: 500px;
-  left: auto;
-  padding:5px;
 }
 
 /* Declare heights because of positioning of img element */
 .carousel-item {
   height: 32rem;
+  
 }
 .carousel-item > img {
   position: absolute;
   top: 0;
   left: 0;
   padding-top: 5rem;
-  height: 32rem;
+  height: 40rem;
   object-fit: contain !important;
   display: block;
+  float: left;
 }
 
 /* MARKETING CONTENT
@@ -91,4 +90,16 @@ body {
   .featurette-heading {
     margin-top: 7rem;
   }
+}
+
+ #quote {
+    font-family: rowdies;
+    font-size: 500px;
+    color: #7F7F7F
+}
+
+#bigtitle {
+    float: right;
+    font-family: rowdies;
+    font-size: 50px;
 }
