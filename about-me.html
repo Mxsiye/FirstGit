@@ -8,7 +8,11 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
     <link href="https://fonts.googleapis.com/css2?family=Rowdies&display=swap" rel="stylesheet">
-    <title>Jenny's Website</title>
+    <link href="styles.css" rel="stylesheet">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <title>Jennie Ngulube</title>
   </head>
   <body>
     <header>
@@ -25,32 +29,35 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
+          <div class="collapse navbar-collapse" id="navbarsExample03">
             <ul class="navbar-nav mr-auto">
               <li class="nav-item">
-                <a class="nav-link" href="index.html">Home</a>
+                <a class="nav-link" href="index.html">Home </a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="coaching.html">Coaching</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="expertise.html">Expertise</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="motivational.html">Motivational Speaking</a>
+                <a class="nav-link" href="motivational.html">Motivational Speaking </a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="#">About Me <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="about-me.html">About Me <span class="sr-only">(current)</span> </a>
               </li>
-              <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-          </li> -->
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown" href="#" id="dropdown03" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Expertise</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown03">
+                  <a class="dropdown-item" href="coaching.html">Coaching</a>
+                  <a class="dropdown-item" href="expertise.html">Parenting</a>
+                </div>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="charitable.html">Charitable Work</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contact.html">Contact</a>
+              </li>
             </ul>
-            <img src='logoinv.png' style= 'height: 50px;'>
           </div>
+            <img src='logoinv.png' style= 'height: 50px;'>       
         </nav>
       </header>
-        <br>
         <br>
         <br>
             <div class= "container marketing">
@@ -66,7 +73,9 @@
                                 <br>
                                 Jennifer has single handed nursed and raised over 20 children and helped them have a better and different narrative to life. All this Jennifer has achieved in the face of segregation and racial abuse herself which has not stopped her from doing what she does best – “building back young broken lives”. <br>
                                 <br>
-                                Jennifer has written her first book - Sailing Through the Storms of Life - which chronicles her life struggles. Jennifer has a degree in Psychology and Counselling. She also has extensive training in parenting children who have attachment issues and exhibit different behavioural issues. Her excellency in this work saw her being honoured by her Royal Majesty the Queen with an MBE.
+                                Jennifer has written her first book - Sailing Through the Storms of Life - which chronicles her life struggles. Jennifer has a degree in Psychology and Counselling. She also has extensive training in parenting children who have attachment issues and exhibit different behavioural issues. Her excellency in this work saw her being honoured by her Royal Majesty the Queen with an MBE. <br>
+                                <br>
+                                Jennifer has also spoken alongside big names such as Les Brown, Jack Cranfield, Marisa Peer, Getrude Matshe, James Dentley, Raul Lopez Jr, Renee Piane and Lindsey Wilson.
                             </p>
                         </div>
                     </div>
@@ -91,10 +100,8 @@
             </div>
         </div>
         <footer class="container">
-            <p class="float-right"><a href="#">Back to top</a></p>
             <p>
-              &copy; 2017-2020 Masiye Sites, Inc. &middot;
-              <a href="#">Privacy</a> &middot; <a href="#">Terms</a>
+              &copy; 2017-2020 Masiye Sites, Inc.
             </p>
           </footer>
  </body>
